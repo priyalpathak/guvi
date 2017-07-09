@@ -1,0 +1,118 @@
+1)double a;
+		Scanner s = new Scanner(System.in);
+		a=s.nextDouble();
+ 
+		if(a==0)
+		System.out.println("number is 0");
+		else if(a>0)
+		System.out.println("number is positive");
+		else
+		System.out.println("numer is negative");
+
+
+2)
+Scanner s = new Scanner(System.in);
+
+		int var=s.nextInt();
+		System.out.println("enter the number to check even odd:"+var);
+ 
+		if(var%2==0)
+		System.out.println("number is even");
+		else
+		System.out.println("numer is odd");
+
+3)	Scanner sc=new Scanner(System.in);
+	
+	char ch=sc.next( ).charAt(0);	 
+	System.out.println("Enter a character : "+ch);
+	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+	{
+	System.out.println("Entered character "+ch+" is  Vowel"); 
+	}
+	else
+	System.out.println("Entered character"+ch+"is consonant");
+
+
+4)Scanner sc=new Scanner(System.in);
+	
+	char ch=sc.next( ).charAt(0);	 
+	System.out.println("Enter a character : "+ch);
+	if(ch>='a'&&ch<='z'||ch>='A'&&ch<='Z')
+	{
+	System.out.println("Entered character "+ch+" is  alphabet"); 
+	}
+	else
+	System.out.println("Entered character "+ch+" is not an alphabet");
+
+
+5)	Scanner sc=new Scanner(System.in);
+      int a=sc.nextInt();
+      int b=sc.nextInt();
+      int c=sc.nextInt();
+      System.out.println("given three numbers are: "+a+","+b+","+c);
+      if(a==b&&a==c)
+      System.out.println("all the 3 numbers are equal");
+      else if(a>b&&a>c)
+      System.out.println(a+" is largest");
+      else if(b>a&&b>c)
+      System.out.println(b+" is largest");
+      else
+      System.out.println(c+" is largest");
+
+
+
+6)	Scanner sc=new Scanner(System.in);
+      int year=sc.nextInt();
+    
+      System.out.println("Enter the year to check: "+year);
+      if(year%400==0)
+      System.out.println(year+" is a leap year");
+      
+      else if(year%100==0)
+      System.out.println(year+" is not a leap year");
+      else if(year%4==0)
+      System.out.println(year+" is a leap year");
+
+
+7)	int i=0;
+	String a="hello";
+	for(i=0;i<5;++i)
+	System.out.println(a);
+
+
+8)             int x,i=1;
+		int sum=0;
+		
+		 Scanner sc=new Scanner(System.in);
+		 x=sc.nextInt();
+		 while(i<=x)
+		 {
+		 	sum=sum+i;
+		 	i++;
+		 }
+		 System.out.println("sum of "+x+" numbers is: "+sum);
+
+9)            int sum = 0;
+		int n=10;
+		for(int i = 1;i <= n;i++)
+		{
+			sum = sum + i;
+		}
+		System.out.println("The Sum Of "+n+" Numbers are:" + sum);
+
+
+
+
+
+
+10)   int n, i=0;
+        Scanner get = new Scanner(System.in);
+        n = get.nextInt();
+        while(n>0)
+        {
+            n=n/10;
+            i++;
+        }
+        System.out.println("Number of Digits present : "+i);
+      
+
