@@ -1,0 +1,95 @@
+1)
+ 	p=float(input())
+	r=float(input())
+	t=float(input())
+	si=(p*r*t)/100
+	print("simple interest=")
+	print(si)
+
+2)	
+	a=float(input())
+	b=float(input())
+	c=float(input())
+	d=float(input())
+	e=float(input())
+	avg=(a+b+c+d+e)/5
+	print("average=")
+	print(avg)
+
+3)
+	inp=int(input())
+	sum=0
+	for i in range(inp):
+		numbers=float(input())
+		sum=sum+numbers
+	avg=sum/inp
+	print('average')
+	print(avg)
+
+4)
+	print("enter your name:")
+	name=str(input())
+	print("hello "+name)
+
+
+5)
+	print("enter your name:")
+	name=str(input())
+	if(name=='Arnold' or name=='ironman'):
+		print("hello "+name)
+
+6)
+	inp=int(input())
+	sum=0
+	i=0
+	while(i<=inp):
+		sum=sum+i
+		i=i+1
+	print(sum)
+
+7)
+	inp=int(input())
+	sum=0
+	i=0
+	while(i<=inp):
+		if(i%2!=0):
+			sum=sum+i
+		i=i+1
+	print(sum)
+
+8)
+	inp=int(input())
+	i=1
+
+	while(i<=10):
+		r=inp*i
+		print("10x"+str(i)+"="+str(r))
+		i=i+1
+
+9)
+
+
+print("1. Area of triangle")
+print("2. Area of rectangle")
+print("3. Area of square")
+print("enter your choice:")
+n=int(input())
+if(n==1):
+    print ("enter height and base of triangle:")
+    h=float(input())
+    base=float(input())
+    area=0.5*base*h
+    print("area of triangle= "+str(area))
+elif(n==2):
+    print ("enter length and breadth of rectangle:")
+    l=float(input())
+    b=float(input())
+    area=b*l
+    print("area of rectangle "+str(area))
+elif(n==3):
+    print ("enter side of square")
+    a=float(input())
+    area=a*a
+    print("area of square= "+str(area))
+     
+
